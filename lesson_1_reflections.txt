@@ -1,0 +1,43 @@
+Q1.How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+	If anything crush after you edit the file, you may check the difference between 2 files to know what causes the crush.
+
+Q2.How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+	You don't have to check files manually and save a lot of time.
+
+Q3.What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+	manually commit pros: 
+		You may choose to commit when there is a logical change that makes your commit history neat and easy to read
+	manually commit cons:
+		You may forget to commit when you have done a huge improvement of you program
+	Automatically commit pros:
+		Anything will be recorded automatically.
+	Automatically commit cons:
+		Your commit history might be too big to read or find a specific version.
+
+Q4.Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+	Git is more for a programemr since there are a lot of scenarios that a programmer might edit numbers of files which have close relations to each other. So Git allows to track multiple files in one commit.
+
+Q5.How can you use the commands git log and git diff to view the history of files?
+
+	'''git log''' (for git history and get commit IDs of each version)
+	'''git diff old_version_ID new_version_ID''' (check the difference between two commits)
+	'''git diff old_version_ID new_version_ID --stat''' (summary of how many changes between two commits)
+
+Q6.How might using version control make you more confident to make changes that could break something?
+
+	100% confident. Because I know I can always jump back to original version when I break something.
+
+Q7.Now that you have your workspace set up, what do you want to try using Git for?
+
+	Write my Nanodegree homework
+
+Note.
+git init ->create repository
+
+Comands
+	commit
+	git log --stat (check how many a file has beem changed in a respository)
